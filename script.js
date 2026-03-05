@@ -39,7 +39,7 @@ const question2 = () => {
   addTodoButton.addEventListener("click", (event) => {
     const taskText = taskName.value;
     
-    if (taskText == "") {
+    if (taskText.trim() === "") {
       return;
     }
     
